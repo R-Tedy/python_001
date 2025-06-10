@@ -29,3 +29,6 @@ if not good_credit:
   print('Eligible')
 else:
   print('Not Eligible')
+
+# short-circuit operators - when one of the arguments is false the expression fails for and operators or true for or operators.
+# logical operators are short circuit.
