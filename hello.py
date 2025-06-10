@@ -93,3 +93,18 @@ for x in range(1, 10):
     count += 1
     print(x)
 print(f'we have {count} even numbers')
+
+# functions
+def hell0_functions():
+  print('hi you')
+
+hell0_functions()
+
+# arguments
+# parameter is the inpuctvariable while an argument is the actual input provided to a function.
+def hell0_function(first_name, last_name):
+  print(f'hi {first_name} {last_name}')
+
+hell0_function('Roland', 'Stedy')
+
+# type
