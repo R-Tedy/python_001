@@ -37,3 +37,23 @@ else:
 if 18 <= age < 65 :
   print('eligible')
 
+# for loops
+# multiplying a number and a string repeats the string that number of times
+for number in range(3):
+  print('attempt', number + 1)
+
+for number in range(1, 4):
+  print('attempt', number)
+
+for number in range(1, 10, 2):
+  print('attempt', number)
+
+# for else 
+successful = True
+for number in range(3):
+  print('attempt')
+  if successful:
+    print('successful')
+    break
+else:
+  print('attempted 3 times and failed')
