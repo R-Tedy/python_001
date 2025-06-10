@@ -63,3 +63,7 @@ else:
 for x in range(5):
   for y in range(3):
     print(f"({x}, {y})")
+
+# iterables
+# therange object is iterable meaning it can be changed on execution
+# range(), strings ,lists are iterable hence they can be used in a for loop
