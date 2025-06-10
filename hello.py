@@ -57,3 +57,9 @@ for number in range(3):
     break
 else:
   print('attempted 3 times and failed')
+
+# Nested loops
+# the code bellow has an outer loop and an inner loop.
+for x in range(5):
+  for y in range(3):
+    print(f"({x}, {y})")
