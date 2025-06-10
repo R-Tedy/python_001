@@ -116,3 +116,25 @@ def greet(name):
 
 message = greet('Stedy')
 
+# keyword arguments
+def increment(number,by):
+  return number + by
+
+print(increment(2, by=3))
+
+# default arguments
+# optional params after the requires params
+def increment(number,by=3):
+  return number + by
+
+print(increment(2))
+
+# *args, wait 
+# toples
+def multiply(*numbers):
+  total = 1
+  for number in numbers:
+    total *= number
+  return total
+
+multiply(2,3,4,5)
