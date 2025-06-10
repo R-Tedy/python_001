@@ -85,3 +85,11 @@ while True:
   command = input('>')
   if command.lower() == 'quite':
     break
+
+# exercise
+count = 0
+for x in range(1, 10):
+  if not x % 2:
+    count += 1
+    print(x)
+print(f'we have {count} even numbers')
