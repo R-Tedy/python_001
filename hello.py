@@ -32,3 +32,8 @@ else:
 
 # short-circuit operators - when one of the arguments is false the expression fails for and operators or true for or operators.
 # logical operators are short circuit.
+
+# Chaining comparison operators
+if 18 <= age < 65 :
+  print('eligible')
+
