@@ -79,3 +79,9 @@ command = ''
 while command.lower() != 'quite':
   command = input('>')
   print('ECO', command)
+
+# infinite loops - loops that run forever
+while True:
+  command = input('>')
+  if command.lower() == 'quite':
+    break
