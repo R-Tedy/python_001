@@ -107,4 +107,12 @@ def hell0_function(first_name, last_name):
 
 hell0_function('Roland', 'Stedy')
 
-# type
+# types of functions
+# 1 - Perform a tast
+# 2 - Return a value
+# all functions return none by default unless the return is specified
+def greet(name):
+  return f'Hi {name}'
+
+message = greet('Stedy')
+
