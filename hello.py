@@ -67,3 +67,15 @@ for x in range(5):
 # iterables
 # therange object is iterable meaning it can be changed on execution
 # range(), strings ,lists are iterable hence they can be used in a for loop
+
+# while loops
+# evaluates a condition and repeating a task.
+number = 100
+while number > 0:
+  print(number)
+  number //= 2
+
+command = ''
+while command.lower() != 'quite':
+  command = input('>')
+  print('ECO', command)
